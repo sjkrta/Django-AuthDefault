@@ -1,0 +1,9 @@
+{% if user.is_authenticated %}
+<div>
+<a href='/'>Homepage</a>
+<a href='/accounts/logout/'>Logout</a>
+</div>
+{% else %}
+<a href='/accounts/login/'>Login</a>
+<a href='/accounts/register/'>Register</a>
+{% endif %}

@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% block title %}Register{% endblock %}
+{% block root %}
+<h1>Register</h1>
+{% if messages %}
+{% for message in messages %}
+<p>{{message}}</p>
+{% endfor %}
+{% endif %}
+<form method='post' action=''>
+{% csrf_token %}
+{{form.as_p}}
+<p>Already got an account? Login <a href='../login'>here</a></p>
+<input type='submit' />
+</form>
+{% endblock root %}
