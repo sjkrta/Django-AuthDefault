@@ -7,12 +7,12 @@
 
 ### Login
 
-<img src="./login.PNG">
+<img src="login.PNG">
 
 ### Register
 
-<img src="./register.PNG">
+<img src="register.PNG">
 
 ### Homepage
 
-<img src="./homepage.PNG">
+<img src="homepage.PNG">
